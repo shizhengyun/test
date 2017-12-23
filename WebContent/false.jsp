@@ -9,7 +9,11 @@
 b{color:navy; background-color: orange;}  
 </style>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <title>USERS     </title>
+=======
+<title>USERS</title>
+>>>>>>> parent of 8a0e353... test
 =======
 <title>USERS</title>
 >>>>>>> parent of 8a0e353... test
