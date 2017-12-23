@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+  <package name="default" extends="struts-default" namespace="/">
+  	<action name="execute" class="com.test.action.RegisterAction">
+  		<result name="success">success.jsp</result>
+  	</action>
+
+  	
+  	<action name="configuration_information_list" class="com.test.action.Configuration_information_listAction" method="configuration_information_list">
+			<result name="configuration_information_list">configuration_information_list.jsp</result>
+	</action>
+	  	<action name="write" class="com.test.action.UserAction" method="execute">
+			<result name="main">main.jsp</result>
+	</action>
+	<action name="userregister" class="com.test.action.UserregisterAction" method="Userregister">			
+	</action>
+		<action name="peopleregister" class="com.test.action.PeopleregisterAction" method="Peopleregister">			
+	</action>
+    <action name="usersearch" class="com.test.action.UsersearchAction" method="usersearch">			
+	</action>
+	    <action name="peoplesearch" class="com.test.action.PeoplesearchAction" method="peoplesearch">			
+	</action>
+	<action name="configuration_information_listsearch" class="com.test.action.Configuration_information_listsearchAction" method="configuration_information_listsearch">			
+	</action>
+	<action name="configuration_information_listregister" class="com.test.action.Configuration_information_listregisterAction" method="Configuration_information_listregister">			
+	</action>
+  </package>
+</struts>
