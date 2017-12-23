@@ -8,7 +8,19 @@
 <style type="text/css">
 b{color:navy; background-color: orange;}  
 </style>
+<<<<<<< HEAD
 <title>USERS</title>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<title>USERS     </title>
+=======
+<title>USERS</title>
+>>>>>>> parent of 8a0e353... test
+=======
+<title>USERS</title>
+>>>>>>> parent of 8a0e353... test
+>>>>>>> 129b326924769d9a437ee1dd1e2353ea3d38349c
 </head>
 <body>
  <b>List of Users</b>
